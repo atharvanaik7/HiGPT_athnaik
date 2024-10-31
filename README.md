@@ -1,5 +1,10 @@
 # HiGPT_athnaik
-1. Environment Preparation (Python 3.10, Cuda 11.7)
+
+## 1. Environment Preparation (Python 3.10, CUDA 11.7)
+
+First, set up a virtual environment for the project:
+
+```bash
 python -m venv higpt_env
 source higpt_env/bin/activate
 
@@ -12,10 +17,13 @@ pip install torch_cluster -f https://data.pyg.org/whl/torch-1.13.0%2Bcu117/torch
 pip install torch_sparse -f https://data.pyg.org/whl/torch-1.13.0%2Bcu117/torch_sparse-0.6.17%2Bpt113cu117-cp310-cp310-linux_x86_64.whl
 pip install torch_spline_conv -f https://data.pyg.org/whl/torch-1.13.0%2Bcu117/torch_spline_conv-1.2.2%2Bpt113cu117-cp310-cp310-linux_x86_64.whl
 
-git clone 
+git clone <repository-url>
 cd HiGPT
 pip install -r requirements_updated.txt
+```
 
-2. Update Paths inside script files and model files
+
+## 2. Update Paths inside script files and model files
+
 In higpt_stage_1.sh, extract_projector.sh, higpt_stage_2.sh, and higpt_info_imdb_cot.sh files update cache, tmp, and root path directories
 
