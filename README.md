@@ -25,5 +25,6 @@ pip install -r requirements_updated.txt
 
 ## 2. Update Paths inside script files and model files
 
-In higpt_stage_1.sh, extract_projector.sh, higpt_stage_2.sh, and higpt_info_imdb_cot.sh files update cache, tmp, and root path directories
+In higpt_stage_1.sh, extract_projector.sh, higpt_stage_2.sh, and higpt_info_imdb_cot.sh files update cache, tmp, and root path directories.
+Only update the root HiGPT path in train_higpt_nopl.py on line -
 
