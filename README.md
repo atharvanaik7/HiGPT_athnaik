@@ -22,11 +22,18 @@ cd HiGPT
 pip install -r requirements_updated.txt
 ```
 
+## 2. File Locations
 
-## 2. Update Paths inside script files and model file
+higpt_stage_1.sh, extract_projector.sh, higpt_stage_2.sh, higpt_info_imdb_cot.sh, and requirements_updated.txt place in path/to/HiGPT directory
+
+HeteroLlama.py place in - path/to/HiGPT/higpt/model/
+train_hete_nopl.py place in - path/to/HiGPT/higpt/train/
+
+## 3. Update Paths inside script files and model file
 
 In higpt_stage_1.sh, extract_projector.sh, higpt_stage_2.sh, and higpt_info_imdb_cot.sh files update cache, tmp, and root path directories in first 4 lines.
 
 Update train_hete_nopl.py file on line 817, add root path to HiGPT directory.
+
 
 
