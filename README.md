@@ -27,6 +27,7 @@ pip install -r requirements_updated.txt
 higpt_stage_1.sh, extract_projector.sh, higpt_stage_2.sh, higpt_info_imdb_cot.sh, and requirements_updated.txt place in path/to/HiGPT directory
 
 HeteroLlama.py place in - path/to/HiGPT/higpt/model/
+
 train_hete_nopl.py place in - path/to/HiGPT/higpt/train/
 
 ## 3. Update Paths inside script files and model file
