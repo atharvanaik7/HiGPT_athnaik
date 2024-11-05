@@ -17,7 +17,6 @@ pip install torch_cluster -f https://data.pyg.org/whl/torch-1.13.0%2Bcu117/torch
 pip install torch_sparse -f https://data.pyg.org/whl/torch-1.13.0%2Bcu117/torch_sparse-0.6.17%2Bpt113cu117-cp310-cp310-linux_x86_64.whl
 pip install torch_spline_conv -f https://data.pyg.org/whl/torch-1.13.0%2Bcu117/torch_spline_conv-1.2.2%2Bpt113cu117-cp310-cp310-linux_x86_64.whl
 
-git clone <repository-url>
 cd HiGPT
 pip install -r requirements_updated.txt
 ```
